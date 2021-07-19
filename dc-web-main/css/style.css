@@ -246,14 +246,14 @@ h1 {
 }
 
 .home-section .arrow-right {
-  position: absolute;
+  position: fixed;
   top: 30%;
-  left: -34%;
+  right: 0%;
   width: 100vh;
   height: 0px;
   border-top: 70vh solid transparent;
   border-bottom: 0px solid;
-  border-right: 205vh solid #92C6FF;
+  border-right: 600px solid #92C6FF;
 }
 
 .home-section .arrow-left {
@@ -270,35 +270,84 @@ h1 {
 .home-section .home-link {
   position: absolute;
   top: 70%;
-  left: 30%;
+  left: 35%;
   font-weight: bold;
 }
 
 .home-section .about-link {
   position: absolute;
   top: 75%;
-  left: 30%;
+  left: 35%;
   font-weight: bold;
 }
 
 .home-section .joining {
-  position: relative;
-  top: 25%;
-  left: 25%;
+  position: absolute;
+  top: 79%;
+  left: 73%;
 }
 
 .home-section .community {
   font-weight: bold;
-  color: #000;
-  position: relative;
-  left: 36%;
-  top: 20%;
+  font-size: x-small;
+  color: #197ae5;
+  position: absolute;
+  left: 73%;
+  top: 75%;
 }
 
 .home-section .button {
   position: absolute;
-  top: 73.5%;
-  left: 88%;
+  top: 83%;
+  left: 82.5%;
+}
+
+.home-section #rob {
+  position: absolute;
+  bottom: 15%;
+  left: 72%;
+  width: 20%;
+  height: 50%;
+}
+
+@media (max-width: 768px) {
+  .home-section .arrow-right {
+    display: none;
+  }
+  .home-section .arrow-left {
+    display: none;
+  }
+  .home-section #rob {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+  .home-section .home-link {
+    font-size: smaller;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+  }
+  .home-section .about-link {
+    font-size: smaller;
+    top: 79%;
+    left: 5%;
+  }
+  .home-section .community {
+    position: absolute;
+    top: 70%;
+    left: 71%;
+  }
+  .home-section .joining {
+    position: absolute;
+    top: 74%;
+    left: 60%;
+  }
+  .home-section .button {
+    position: absolute;
+    top: 79%;
+    left: 84%;
+  }
 }
 
 .form-container {

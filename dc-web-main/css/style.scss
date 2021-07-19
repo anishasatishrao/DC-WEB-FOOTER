@@ -275,14 +275,14 @@ $primary-color: #179ae5;
             // border-top:70vh solid transparent ;
             // border-bottom: 68px solid transparent ; 
             // border-right:204px solid blue; 
-            position: absolute;
+            position: fixed;
             top: 30%;
-            left: -34%;
+            right: 0%;
             width: 100vh; 
             height: 0px; 
             border-top:70vh solid transparent ;
             border-bottom: 0px solid ;  
-            border-right:205vh solid #92C6FF;
+            border-right:600px solid #92C6FF;
           }
           .arrow-left {
             position: absolute;
@@ -298,38 +298,101 @@ $primary-color: #179ae5;
             .home-link{
                 position: absolute;
                 top: 70%;
-                left:30%;
+                left:35%;
                 font-weight: bold;
 
             }
+
+
             .about-link{
                 position: absolute;
                 top: 75%;
-                left:30%;
+                left:35%;
                 font-weight: bold;
             }
             .joining{
-                position:relative;
-                top: 25%;
-                left: 25%;
+                position:absolute;
+                top: 79%;
+                left: 73%;
             }
 
             .community{
                 font-weight: bold;
-                color: #000;
-                position: relative;
-                left: 36%;
-                top: 20%;
+                font-size: x-small;
+                color:#197ae5;
+                position: absolute;
+                left: 73%;
+                top: 75%;
             }
 
             .button{
                 position: absolute;
-                top: 73.5%;
-                left: 88%;
+                top: 83%;
+                left: 82.5%;
             }
             
-           
-    
+            #rob{
+                position:absolute;
+                bottom: 15%;
+                left: 72%;
+                width: 20%;
+                height: 50%;
+            }
+             
+            @media(max-width: 768px){ 
+                .arrow-right{
+                    display: none;
+                }
+                .arrow-left{
+                    display: none;
+                }
+
+                #rob{
+                    position: absolute;
+                    top: 50%;
+                    left: 35%;
+                }
+                .home-link{
+                    font-size: smaller;
+                    position: absolute;
+                    top: 75%;
+                    left: 5%;
+                }
+                .about-link{
+                    font-size: smaller;
+                    top: 79%;
+                    left: 5%;
+                }
+                .community{
+                    position: absolute;
+                    top: 70%;
+                    left: 71%;
+                }
+                .joining{
+                    position: absolute;
+                    top:74%;
+                    left: 60%;
+                }
+                .button{
+                    position: absolute;
+                    top: 79%;
+                    left: 84%;
+                }
+                // .footer-box{
+                //     position: absolute;
+                //     left: 2%;
+                //     top: 67%;
+                //     border: #67e776 solid;
+                //     background-color: #0A1C30;
+                //     width: 480px;
+                //     border-radius: 8px;
+                //     opacity: 300;
+                //     height: 100px;
+                //     color: #179ae5;
+
+                
+             }
+               
         
     }
 
