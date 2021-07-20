@@ -296,47 +296,64 @@ $primary-color: #179ae5;
           } 
 
             .home-link{
+                font-family: 'Nova flat', cursive;
                 position: absolute;
                 top: 70%;
-                left:35%;
+                left:25%;
                 font-weight: bold;
 
             }
 
 
-            .about-link{
+              .about-link{
+                font-family: 'nova flat', cursive;
                 position: absolute;
                 top: 75%;
-                left:35%;
+                left:25%;
                 font-weight: bold;
             }
             .joining{
                 position:absolute;
                 top: 79%;
-                left: 73%;
+                left: 74%;
             }
 
             .community{
-                font-weight: bold;
-                font-size: x-small;
+                font-family: 'nova flat';
+                font-weight: 1000;
+                font-size: small;
                 color:#000;
                 position: absolute;
-                left: 73%;
+                left: 74%;
                 top: 75%;
             }
 
-            .button{
+            button{
+                font-family: 'nova flat', cursive;
+                width: 80px;
+                height: 25px;
+                border-radius: 10%;
                 position: absolute;
-                top: 83%;
-                left: 82.5%;
+                top: 78.5%;
+                left: 87.5%;
+                background-color:#F3AF0E;
+
             }
             
             #rob{
                 position:absolute;
-                bottom: 15%;
-                left: 72%;
+                bottom: 18%;
+                left: 75%;
                 width: 20%;
                 height: 50%;
+            }
+            .v-line{
+                border-left: 5px solid white;
+                height: 90px;
+                position: absolute;
+                left: 22%;
+                top: 66%;
+                
             }
              
             @media(max-width: 768px){ 
